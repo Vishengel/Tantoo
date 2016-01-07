@@ -1243,3 +1243,15 @@ java.lang.IllegalArgumentException: Path must include project and resource name:
 2016-01-07 14:48:34,028 [LiveReload-Proxy-Server-59996:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4e944b5d{/,null,AVAILABLE}
 2016-01-07 14:48:34,075 [LiveReload-Proxy-Server-59996:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@5745a591{HTTP/1.1}{localhost:59996}
 2016-01-07 14:48:34,076 [LiveReload-Proxy-Server-59996:8080] INFO  org.eclipse.jetty.server.Server - Started @16750088ms
+2016-01-07 16:04:47,640 [Worker-243] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@5745a591{HTTP/1.1}{localhost:59996}
+2016-01-07 16:04:47,643 [Worker-243] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4e944b5d{/,null,UNAVAILABLE}
+2016-01-07 16:05:03,858 [LiveReload-Proxy-Server-59996:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-07 16:05:03,882 [LiveReload-Proxy-Server-59996:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2519e022{/,null,AVAILABLE}
+2016-01-07 16:05:03,966 [LiveReload-Proxy-Server-59996:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@44f63646{HTTP/1.1}{localhost:59996}
+2016-01-07 16:05:03,974 [LiveReload-Proxy-Server-59996:8080] INFO  org.eclipse.jetty.server.Server - Started @21339986ms
+2016-01-07 16:16:26,026 [Worker-237] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@44f63646{HTTP/1.1}{localhost:59996}
+2016-01-07 16:16:26,028 [Worker-237] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@2519e022{/,null,UNAVAILABLE}
+2016-01-07 16:16:30,106 [LiveReload-Proxy-Server-59996:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-07 16:16:30,167 [LiveReload-Proxy-Server-59996:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@45929bba{/,null,AVAILABLE}
+2016-01-07 16:16:30,185 [LiveReload-Proxy-Server-59996:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@1dfce30{HTTP/1.1}{localhost:59996}
+2016-01-07 16:16:30,185 [LiveReload-Proxy-Server-59996:8080] INFO  org.eclipse.jetty.server.Server - Started @22026197ms

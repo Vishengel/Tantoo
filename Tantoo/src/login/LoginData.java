@@ -21,6 +21,7 @@ public class LoginData implements Serializable {
 	private String userName;
 	private String password;
 	private String email;
+	private String description;
 	private boolean show = false;
 	
 	public String getUserName() {
@@ -47,6 +48,14 @@ public class LoginData implements Serializable {
 		this.email = email;
 	}
 	
+	public String getDescription() {
+		return description;
+	}
+	
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
 	public boolean getShow() {
 		return this.show;
 	}
@@ -56,7 +65,7 @@ public class LoginData implements Serializable {
 	}
 
 	public List<LoginData> getUsers() {
-		System.out.println("Getting users...");
+		//System.out.println("Getting users...");
 		List<LoginData> result = new ArrayList<>();;
 		try {
 			Class.forName("org.postgresql.Driver").newInstance();
@@ -96,6 +105,23 @@ public class LoginData implements Serializable {
 			}
 		
 		return result;
+	}
+	
+	public String checkLogin() {
+		System.out.println("Logging in");
+		List<LoginData> list = getUsers();
+		System.out.println(list.size());
+		
+		for(int i= 0; i< list.size();i++) {
+			
+			if(this.userName.equals(list.get(i).getUserName()) && this.password.equals(list.get(i).getPassword())) {
+				System.out.println("Login success");
+				return "success";
+			}	
+		}
+		
+		System.out.println("Login failure");
+		return "failure";
 	}
 	
 	public String add() {
