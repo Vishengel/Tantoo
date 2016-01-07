@@ -4,27 +4,29 @@
 	xmlns:h="http://java.sun.com/jsf/html">
 
 <h:head>
-	<h:outputStylesheet library="css" name="login.css"/>
+	<h:outputStylesheet library="css" name="styles.css"/>
 	<title>Log-in</title>
 </h:head>
 
 
 <h:body>
 
-	<div id="container">
-	<div id="tantoo">Tantoo</div>
+	<div class="container" id="logincontainer">
+		<div id="tantoo">Tantoo</div>
 		<h:form>
 			
 			<label for="username">Username</label>
-			<h:inputText value="#{theUserName}" id="username" name="username" />
+			<h:inputText value="#{loginData.userName}" id="username" name="username" required="true" requiredMessage="This field is required"/>
 			<label for="password">Password</label>
 			
-			<h:inputSecret value="#{theUserPassword}" id="password" name="password" />
+			<h:inputSecret value="#{loginData.password}" id="password" name="password" required="true" requiredMessage="This field is required"/>
 			
 			<div id="lower">
-				<a href="#">Forgot your password?</a> <br />
-				<a href="#">Registration</a>
-				<h:commandButton action="main" value="Login" />
+				<a href="forgot.xhtml">Forgot your password?</a> <br />
+				<a href="register.xhtml">Registration</a>
+				<div id="loginbutton">
+					<h:commandButton action="main" value="Login" />
+				</div>
 			</div> <!-- lower -->
 			
 		</h:form>

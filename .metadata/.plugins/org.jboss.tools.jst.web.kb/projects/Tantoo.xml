@@ -133,61 +133,56 @@
   <core validator-id="jboss.jsf.core"/>
   <el>
    <linked-el length="21" name="%2" offset="551" path="%3"/>
-   <linked-el length="21" name="%2" offset="551" path="%4"/>
-   <linked-el length="17" name="%5" offset="428" path="%4"/>
-   <linked-el length="17" name="%5" offset="428" path="%3"/>
-   <linked-el length="24" name="%1" offset="1407" path="%6"/>
-   <linked-el length="21" name="%1" offset="1567" path="%6"/>
-   <linked-el length="29" name="%1" offset="1026" path="%6"/>
-   <linked-el length="23" name="%1" offset="2886" path="%6"/>
-   <linked-el length="25" name="%1" offset="1093" path="%6"/>
-   <linked-el length="23" name="%1" offset="2277" path="%6"/>
-   <linked-el length="24" name="%1" offset="607" path="%7"/>
-   <linked-el length="21" name="%1" offset="767" path="%7"/>
-   <linked-el length="21" name="%1" offset="902" path="%7"/>
-   <linked-el length="24" name="%1" offset="440" path="%7"/>
-   <linked-el length="23" name="%1" offset="3058" path="%6"/>
-   <linked-el length="23" name="%1" offset="2449" path="%6"/>
-   <linked-el length="18" name="%1" offset="3348" path="%6"/>
+   <linked-el length="17" name="%4" offset="428" path="%3"/>
+   <linked-el length="24" name="%1" offset="1407" path="%5"/>
+   <linked-el length="29" name="%1" offset="1026" path="%5"/>
+   <linked-el length="23" name="%1" offset="2886" path="%5"/>
+   <linked-el length="25" name="%1" offset="1093" path="%5"/>
+   <linked-el length="21" name="%1" offset="791" path="%6"/>
+   <linked-el length="23" name="%1" offset="3058" path="%5"/>
+   <linked-el length="19" name="%1" offset="829" path="%7"/>
+   <linked-el length="20" name="%1" offset="1718" path="%5"/>
    <linked-el length="18" name="%1" offset="600" path="%8"/>
-   <linked-el length="20" name="%1" offset="1718" path="%6"/>
-   <linked-el length="24" name="%1" offset="1240" path="%6"/>
+   <linked-el length="24" name="%1" offset="464" path="%6"/>
+   <linked-el length="26" name="%1" offset="694" path="%7"/>
+   <linked-el length="29" name="%1" offset="956" path="%5"/>
+   <linked-el length="21" name="%1" offset="1567" path="%5"/>
+   <linked-el length="23" name="%1" offset="2277" path="%5"/>
+   <linked-el length="24" name="%1" offset="631" path="%6"/>
+   <linked-el length="21" name="%1" offset="475" path="%7"/>
+   <linked-el length="23" name="%1" offset="2449" path="%5"/>
+   <linked-el length="18" name="%1" offset="3348" path="%5"/>
+   <linked-el length="21" name="%1" offset="958" path="%6"/>
+   <linked-el length="24" name="%1" offset="1240" path="%5"/>
+   <linked-el length="24" name="%1" offset="453" path="%9"/>
    <linked-el length="18" name="%1" offset="437" path="%8"/>
-   <linked-el length="29" name="%1" offset="956" path="%6"/>
-   <linked-el length="20" name="%1" offset="3227" path="%6"/>
-   <linked-el length="26" name="%1" offset="861" path="%6"/>
-   <linked-el length="24" name="%0" offset="1407" path="%6"/>
-   <linked-el length="21" name="%0" offset="1567" path="%6"/>
-   <linked-el length="29" name="%0" offset="1026" path="%6"/>
-   <linked-el length="23" name="%0" offset="2886" path="%6"/>
-   <linked-el length="25" name="%0" offset="1093" path="%6"/>
-   <linked-el length="23" name="%0" offset="2277" path="%6"/>
-   <linked-el length="24" name="%0" offset="607" path="%7"/>
-   <linked-el length="21" name="%0" offset="767" path="%7"/>
-   <linked-el length="21" name="%0" offset="902" path="%7"/>
-   <linked-el length="24" name="%0" offset="440" path="%7"/>
-   <linked-el length="23" name="%0" offset="3058" path="%6"/>
-   <linked-el length="23" name="%0" offset="2449" path="%6"/>
-   <linked-el length="18" name="%0" offset="3348" path="%6"/>
+   <linked-el length="20" name="%1" offset="3227" path="%5"/>
+   <linked-el length="24" name="%1" offset="639" path="%9"/>
+   <linked-el length="26" name="%1" offset="861" path="%5"/>
+   <linked-el length="21" name="%0" offset="791" path="%6"/>
+   <linked-el length="24" name="%0" offset="631" path="%6"/>
+   <linked-el length="21" name="%0" offset="475" path="%7"/>
+   <linked-el length="19" name="%0" offset="829" path="%7"/>
    <linked-el length="18" name="%0" offset="600" path="%8"/>
-   <linked-el length="20" name="%0" offset="1718" path="%6"/>
-   <linked-el length="24" name="%0" offset="1240" path="%6"/>
+   <linked-el length="21" name="%0" offset="958" path="%6"/>
+   <linked-el length="24" name="%0" offset="453" path="%9"/>
+   <linked-el length="24" name="%0" offset="464" path="%6"/>
    <linked-el length="18" name="%0" offset="437" path="%8"/>
-   <linked-el length="29" name="%0" offset="956" path="%6"/>
-   <linked-el length="20" name="%0" offset="3227" path="%6"/>
-   <linked-el length="26" name="%0" offset="861" path="%6"/>
+   <linked-el length="26" name="%0" offset="694" path="%7"/>
+   <linked-el length="24" name="%0" offset="639" path="%9"/>
   </el>
  </validation>
  <aliases>
   <alias path="theUserPassword" value="%2"/>
-  <alias path="/Tantoo/WebContent/WEB-INF/index.xhtml" value="%4"/>
-  <alias path="/Tantoo/WebContent/index.xhtml" value="%3"/>
-  <alias path="theUserName" value="%5"/>
-  <alias path="/Tantoo/WebContent/register.xhtml" value="%7"/>
+  <alias path="/Tantoo/WebContent/WEB-INF/index.xhtml" value="%3"/>
+  <alias path="/Tantoo/WebContent/forgot.xhtml" value="%7"/>
+  <alias path="/Tantoo/WebContent/index.xhtml" value="%9"/>
+  <alias path="theUserName" value="%4"/>
+  <alias path="/Tantoo/WebContent/register.xhtml" value="%6"/>
   <alias path="loginData" value="%1"/>
   <alias path="/Tantoo/src/login/LoginData.java" value="%0"/>
   <alias path="/Tantoo/WebContent/WEB-INF/faces-config.xml" value="%8"/>
-  <alias path="/Tantoo/WebContent/login.xhtml" value="%6"/>
+  <alias path="/Tantoo/WebContent/login.xhtml" value="%5"/>
  </aliases>
  <includes/>
  <uris>

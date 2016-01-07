@@ -21,6 +21,7 @@ public class LoginData implements Serializable {
 	private String userName;
 	private String password;
 	private String email;
+	private boolean show = false;
 	
 	public String getUserName() {
 		return this.userName;
@@ -44,6 +45,14 @@ public class LoginData implements Serializable {
 	
 	public void setEmail(String email) {
 		this.email = email;
+	}
+	
+	public boolean getShow() {
+		return this.show;
+	}
+	
+	public void showHide() {
+		this.show = !this.show;
 	}
 
 	public List<LoginData> getUsers() {
@@ -129,6 +138,11 @@ public class LoginData implements Serializable {
 		} else {
 			return "invalid";
 		  } 
+	}
+	
+	public String forgotPW() {
+		System.out.println("TEST MOTHERFUCKER");
+		return "Test string";
 	}
 	
 }
