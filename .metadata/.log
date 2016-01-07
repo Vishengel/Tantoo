@@ -464,3 +464,36 @@ java.io.FileNotFoundException: C:\Users\Jelle\Documents\GitHub\Tantoo\Test\src\s
 
 !ENTRY org.jboss.tools.common.model 2 0 2016-01-07 12:03:42.373
 !MESSAGE Project P/Test has corrupted nature: org.jboss.tools.jsf.jsfnature
+
+!ENTRY org.eclipse.jst.j2ee 4 0 2016-01-07 12:40:50.191
+!MESSAGE C:\Users\Jelle\Documents\GitHub\Tantoo\TantooTest\WebContent\WEB-INF\lib\postgresql-9.4-1206-jdbc4.jar
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Jelle\Documents\GitHub\Tantoo\TantooTest\WebContent\WEB-INF\lib\postgresql-9.4-1206-jdbc4.jar
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentLoadAdapter.physicallyOpen(JavaEEBinaryComponentLoadAdapter.java:105)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper$ArchiveCache.accessArchive(JavaEEBinaryComponentHelper.java:534)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.openArchive(JavaEEBinaryComponentHelper.java:473)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getUniqueArchive(JavaEEBinaryComponentHelper.java:422)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getArchive(JavaEEBinaryComponentHelper.java:415)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getJavaEEQuickPeek(JavaEEBinaryComponentHelper.java:98)
+	at org.eclipse.jst.j2ee.project.JavaEEProjectUtilities.getJ2EEComponentType(JavaEEProjectUtilities.java:273)
+	at org.eclipse.jst.j2ee.internal.common.exportmodel.JEEHeirarchyExportParticipant.isChildModule(JEEHeirarchyExportParticipant.java:81)
+	at org.eclipse.wst.common.componentcore.internal.flat.GlobalHeirarchyParticipant.isChildModule(GlobalHeirarchyParticipant.java:52)
+	at org.eclipse.jst.common.internal.modulecore.SingleRootExportParticipant.shouldAddComponentFile(SingleRootExportParticipant.java:236)
+	at org.eclipse.jst.common.internal.modulecore.SingleRootExportParticipant.getMembers(SingleRootExportParticipant.java:175)
+	at org.eclipse.jst.common.internal.modulecore.SingleRootExportParticipant.getMembers(SingleRootExportParticipant.java:170)
+	at org.eclipse.jst.common.internal.modulecore.SingleRootExportParticipant.getMembers(SingleRootExportParticipant.java:170)
+	at org.eclipse.jst.common.internal.modulecore.SingleRootExportParticipant.optimize(SingleRootExportParticipant.java:103)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.optimize(FlatVirtualComponent.java:212)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.cacheResources(FlatVirtualComponent.java:186)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.getChildModules(FlatVirtualComponent.java:160)
+	at org.eclipse.wst.web.internal.deployables.FlatComponentDeployable.getExportModelChildren(FlatComponentDeployable.java:252)
+	at org.eclipse.wst.web.internal.deployables.FlatComponentDeployable.getModules(FlatComponentDeployable.java:263)
+	at org.eclipse.wst.web.internal.deployables.FlatComponentDeployable.getChildModules(FlatComponentDeployable.java:247)
+	at org.jboss.ide.eclipse.as.wtp.core.util.ServerModelUtilities.getChildModules(ServerModelUtilities.java:125)
+	at org.jboss.ide.eclipse.as.wtp.core.util.ServerModelUtilities.getChildModules(ServerModelUtilities.java:118)
+	at org.jboss.ide.eclipse.as.core.server.internal.DeployableServer.getChildModules(DeployableServer.java:99)
+	at org.eclipse.wst.server.core.internal.Server.getChildModules(Server.java:2637)
+	at org.eclipse.wst.server.core.internal.Server.visitModule(Server.java:3058)
+	at org.eclipse.wst.server.core.internal.Server.visit(Server.java:3039)
+	at org.eclipse.wst.server.core.internal.Server$ResourceChangeJob.run(Server.java:228)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
