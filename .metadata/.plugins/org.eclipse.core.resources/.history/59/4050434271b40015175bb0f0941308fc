@@ -1,0 +1,55 @@
+package src.starWarsCharacters;
+
+public class Character {
+
+	private int nameId;
+	private String name;
+	private String a;
+	private String password;
+	
+	/*public Character(int nameId, String name, String email, String password) {
+		this.nameId=nameId;
+		this.name=name;
+		this.email=email;
+		this.password=password;
+	}*/
+	
+	public Character() {
+		
+	}
+	
+	public void setName(String name) {
+		this.name=name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public String getA() {
+		return a;
+	}
+
+	public void setA(String a) {
+		this.a = a;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	
+	
+	@Override
+	public String toString() {
+		return name + " " + a;
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:ui="http://java.sun.com/jsf/facelets"
+xmlns:h="http://java.sun.com/jsf/html"
+xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+<h:outputStylesheet library="css" name="style.css" />
+</h:head>
+<h:body>
+<h:form>
+<h:dataTable value="#{characterData.getCharacters()}" var="chr"
+styleClass="characterTable"
+headerClass="characterTableHeader"
+rowClasses="characterTableOddRow,characterTableEvenRow">
+<h:column>
+<f:facet name="header">Name</f:facet>
+<h:outputText value="#{chr.getName}"/>
+</h:column>
+<h:column>
+<f:facet name="header">Race</f:facet>
+<h:outputText value="#{chr.race}"/>
+</h:column>
+<h:column>
+<f:facet name="header">Description</f:facet>
+<h:outputText value="#{chr.description}"/>
+</h:column>
+</h:dataTable>
+</h:form>
+</h:body>
+</html>

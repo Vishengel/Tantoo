@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout resource="/Test2/WebContent/WEB-INF/web.xml">
+ <TreeFormPage>
+  <Memento type="FileWebApp31">
+   <Memento collapsed="false" type="Deployment Descriptor"/>
+   <Memento collapsed="false" type="Context Params"/>
+   <Memento collapsed="false" type="Advanced"/>
+  </Memento>
+  <Memento type="WebAppWelcomFileList">
+   <Memento collapsed="false" type="Welcome Files"/>
+  </Memento>
+  <Memento type="WebAppJspConfig30">
+   <Memento collapsed="false" type="Taglibs"/>
+   <Memento collapsed="false" type="Property Groups"/>
+  </Memento>
+  <Memento type="">
+   <Memento collapsed="false" type="Properties Editor"/>
+  </Memento>
+  <Memento type="WebAppLocaleEncodingMappingList">
+   <Memento collapsed="false" type="Locale Encoding Mappings"/>
+  </Memento>
+  <Memento type="WebAppSessionConfig30">
+   <Memento type="Session-Config"/>
+   <Memento type="Cookie Configs"/>
+   <Memento type="Advanced"/>
+  </Memento>
+ </TreeFormPage>
+</Layout>

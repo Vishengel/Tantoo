@@ -1,0 +1,14 @@
+package login;
+
+public class Test {
+
+	public static void main(String[] args) {
+		LoginData usr = new LoginData();
+		System.out.println(usr.getUsers().get(0).getEmail());
+		usr.setUserName("AAAAAA");
+		usr.setPassword("BBBBB");
+		usr.setEmail("CCCC");
+		usr.add();
+	}
+
+}
