@@ -26,7 +26,7 @@ html, body {
 #container {
 	position:fixed;
 	width:340px;
-	height:365px;
+
 	top:50%;
 	left:50%;
 	margin-top: -140px;
@@ -39,6 +39,8 @@ html, body {
 #lower {
 	text-align:center;
 	margin:0px;
+	width:340px;
+	height:365px;
 }
 
 form {
@@ -75,17 +77,19 @@ input[type=text], input[type=password] {
 	margin: 10px;
 	margin-top: 10px;
 	margin-left: 18px;
-	width: 85%;
-	height: 10%;
+	width: 290px;
+	height: 35px;
 	border: 1px solid #c7d0d2;
 	border-radius: 2px;
 	box-shadow: outline 0px 0px 10px 1px;
 }
 
 input[type=submit] {
- 	margin-top: 5%;
- 	width: 50%;
- 	height: 10%;
+	float: right;
+ 	margin-right: 20px;
+ 	margin-top: -10px;
+ 	width: 80px;
+ 	height: 30px;
  	font-size: 16px;
  	font-weight: bold;
  	color: #777;

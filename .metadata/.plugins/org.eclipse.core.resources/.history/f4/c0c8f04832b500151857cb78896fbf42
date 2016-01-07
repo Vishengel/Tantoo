@@ -76,16 +76,16 @@ input[type=text], input[type=password] {
 	margin-top: 10px;
 	margin-left: 18px;
 	width: 85%;
-	height: 10%;
+	height: 35px;
 	border: 1px solid #c7d0d2;
 	border-radius: 2px;
 	box-shadow: outline 0px 0px 10px 1px;
 }
 
 input[type=submit] {
- 	margin-top: 5%;
+ 	margin-top: 6%;
  	width: 50%;
- 	height: 10%;
+ 	height: 15%;
  	font-size: 16px;
  	font-weight: bold;
  	color: #777;
