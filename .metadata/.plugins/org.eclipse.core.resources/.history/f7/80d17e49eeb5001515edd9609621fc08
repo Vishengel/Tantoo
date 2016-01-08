@@ -1,0 +1,38 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+	<h:outputStylesheet library="css" name="styles.css"/>
+	<title>Register</title>
+</h:head>
+
+
+<h:body>
+
+	<div class="container" id="registercontainer">
+	<div id="tantoo">Tantoo</div>
+		<h:form>
+			
+				<h:outputText value="Name"></h:outputText>
+				<h:inputText  value="#{loginData.userName}" required="true" requiredMessage="This field is required"/>
+				
+				<h:outputText value="Password"></h:outputText>
+				<h:inputSecret value="#{loginData.password}" required="true" requiredMessage="This field is required"/>
+		
+				<h:outputText value="Email"></h:outputText>
+				<h:inputText value="#{loginData.email}" required="true" requiredMessage="This field is required"/>
+			
+			<div id="lower">
+				<div id="registerbutton">
+					<h:commandButton action="#{loginData.add()}" value="Register" />
+				</div>
+			</div> <!-- lower -->
+			
+		</h:form>
+	
+	</div> <!-- container -->
+	
+</h:body>
+</html>

@@ -1,0 +1,46 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+<head>
+	<title>Basic model</title>
+	<h:outputStylesheet library="css" href="resources/css/style.css" />
+</head>
+<body>
+
+<div id="wrapper" class="shadow">
+	<div id="top-menu">
+	<ul>
+		<li><a href="site1.html">Site 1</a></li>
+		<li><a href="site2.html">Site 2</a></li>
+		<li><a href="site3.html">Site 3</a></li>
+	</ul>
+	</div> <!--End of Top-Menu-->
+	<div id="groups">
+		<ul>
+		<li><a href="group1.html">Group 1</a></li>
+		<li><a href="group2.html">Group 2</a></li>
+		<li><a href="group3.html">Group 3</a></li>
+	</ul>
+	</div> <!--End of Groups-->
+	<div id="content">
+	<article>
+	<h1>Hello and Welcome to Tantoo "User xyz"</h1>
+	<p>This website is absolutly amazing</p>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<p> NOT!</p>
+	</article>
+	</div> <!--End of Content-->
+	
+</div> <!--End of Wrapper-->
+
+</body>
+</html>

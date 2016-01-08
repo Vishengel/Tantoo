@@ -10,25 +10,25 @@
 
 
 <h:body>
-					<h:form>
-						<h:commandButton action="#{loginData.forgotPW()}" value="Get password"></h:commandButton>
-					</h:form>
 	<div class="container" id="logincontainer">
 		<div id="tantoo">Tantoo</div>
-			<h:form>				
-				<label for="username">Enter email address</label>
-				<h:inputText value="#{loginData.email}" id="email" name="email" required="true" requiredMessage="This field is required"/>
-			</h:form>
-			
-			<div id="lower">
-				<div id="forgotbutton">
-					<h:form>
-						<h:commandButton action="#{loginData.forgotPW()}" value="Get password"></h:commandButton>
-					</h:form>
-				</div>
+			<h:form>	
+				<f:ajax render="text">				
+					<h:outputText>Enter email address</h:outputText>
+					<h:inputText value="#{loginData.email}" id="email" name="email" required="true" requiredMessage="This field is required"/>
 				
-			</div> <!-- lower -->
-	
+					<div id="lower">
+						<div id="forgotbutton">									
+							<h:commandButton action="#{loginData.setShow('A')}" value="Get password"></h:commandButton>							 				
+						</div>
+						 <h:panelGroup id="text">
+				        	<h:outputText value="#{loginData.forgotPW()}" rendered="#{loginData.hidden == false}" />
+				    	</h:panelGroup>
+					
+					</div> <!-- lower -->
+				</f:ajax>
+			</h:form>
+
 	</div> <!-- container -->
 	
 </h:body>

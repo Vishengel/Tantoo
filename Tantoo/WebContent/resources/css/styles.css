@@ -64,6 +64,10 @@ a {
  	margin-left: 30px;
 }
 
+a#title {
+	
+}
+
 a:hover {
  color: red;
 }

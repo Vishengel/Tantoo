@@ -1,5 +1,6 @@
 package login;
 
+import java.io.IOException;
 import java.io.Serializable;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -10,7 +11,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 import javax.inject.Named;
+import javax.servlet.http.HttpSession;
 import javax.enterprise.context.SessionScoped;
+import javax.faces.context.FacesContext;
 import javax.sql.DataSource;
 import javax.annotation.Resource;
 
@@ -22,7 +25,8 @@ public class LoginData implements Serializable {
 	private String password;
 	private String email;
 	private String description;
-	private boolean show = false;
+	private String show;
+	private boolean hidden = true;
 	
 	public String getUserName() {
 		return this.userName;
@@ -56,12 +60,21 @@ public class LoginData implements Serializable {
 		this.description = description;
 	}
 	
-	public boolean getShow() {
+	public String getShow() {
 		return this.show;
 	}
 	
-	public void showHide() {
-		this.show = !this.show;
+	public void setShow(String show) {
+		this.show = show;
+		this.setHidden(!hidden);
+	}
+	
+	public boolean getHidden() {
+		return this.hidden;
+	}
+	
+	public void setHidden(boolean hidden) {
+		this.hidden = hidden;
 	}
 
 	public List<LoginData> getUsers() {
@@ -110,7 +123,7 @@ public class LoginData implements Serializable {
 	public String checkLogin() {
 		System.out.println("Logging in");
 		List<LoginData> list = getUsers();
-		System.out.println(list.size());
+		//System.out.println(list.size());
 		
 		for(int i= 0; i< list.size();i++) {
 			
@@ -122,6 +135,17 @@ public class LoginData implements Serializable {
 		
 		System.out.println("Login failure");
 		return "failure";
+	}
+	
+	public void logout() throws IOException {		
+	    setUserName(null);
+	    setPassword(null);
+	    setEmail(null);
+	    setDescription(null);
+	    FacesContext fc = FacesContext.getCurrentInstance();
+	    HttpSession session = (HttpSession)fc.getExternalContext().getSession(false);
+	    session.invalidate();
+	    FacesContext.getCurrentInstance().getExternalContext().redirect("http://localhost:8080/tantoo/faces/index.xhtml");
 	}
 	
 	public String add() {
@@ -167,8 +191,23 @@ public class LoginData implements Serializable {
 	}
 	
 	public String forgotPW() {
-		System.out.println("TEST MOTHERFUCKER");
-		return "Test string";
+		System.out.println("Trying to retrieve password");
+		
+		List<LoginData> list = getUsers();
+		System.out.println(this.email);
+		
+		for(int i= 0; i< list.size();i++) {	
+			
+			if(this.email.equals(list.get(i).getEmail())) {
+				System.out.println("Password retrieved");
+				return "Password: " + list.get(i).getPassword();
+			}
+			
+		}
+		
+		System.out.println("Email not found");
+		
+		return "The provided email is not connected to any account";
 	}
 	
 }

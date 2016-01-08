@@ -1255,3 +1255,452 @@ java.lang.IllegalArgumentException: Path must include project and resource name:
 2016-01-07 16:16:30,167 [LiveReload-Proxy-Server-59996:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@45929bba{/,null,AVAILABLE}
 2016-01-07 16:16:30,185 [LiveReload-Proxy-Server-59996:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@1dfce30{HTTP/1.1}{localhost:59996}
 2016-01-07 16:16:30,185 [LiveReload-Proxy-Server-59996:8080] INFO  org.eclipse.jetty.server.Server - Started @22026197ms
+2016-01-07 17:08:35,290 [Worker-56] INFO  org.eclipse.jetty.util.log - Logging initialized @2947960ms
+2016-01-07 17:08:35,595 [LiveReload Server at localhost] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-07 17:08:35,804 [LiveReload Server at localhost] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@366dde54{/,null,AVAILABLE}
+2016-01-07 17:08:35,819 [LiveReload Server at localhost] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@79283a3b{HTTP/1.1}{localhost:35729}
+2016-01-07 17:08:35,820 [LiveReload Server at localhost] INFO  org.eclipse.jetty.server.Server - Started @2948510ms
+2016-01-07 17:08:36,188 [LiveReload-Proxy-Server-52918:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-07 17:08:36,255 [LiveReload-Proxy-Server-52918:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@55292525{/,null,AVAILABLE}
+2016-01-07 17:08:36,262 [LiveReload-Proxy-Server-52918:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@2df92968{HTTP/1.1}{localhost:52918}
+2016-01-07 17:08:36,262 [LiveReload-Proxy-Server-52918:8080] INFO  org.eclipse.jetty.server.Server - Started @2948952ms
+2016-01-07 17:08:48,879 [Worker-47] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@79283a3b{HTTP/1.1}{localhost:35729}
+2016-01-07 17:08:48,888 [Worker-47] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@366dde54{/,null,UNAVAILABLE}
+2016-01-07 17:08:48,896 [Worker-47] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@2df92968{HTTP/1.1}{localhost:52918}
+2016-01-07 17:08:48,902 [Worker-47] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@55292525{/,null,UNAVAILABLE}
+2016-01-07 17:08:51,746 [LiveReload Server at localhost] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-07 17:08:51,751 [LiveReload Server at localhost] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@414ef0c6{/,null,AVAILABLE}
+2016-01-07 17:08:51,758 [LiveReload Server at localhost] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@1ddd327a{HTTP/1.1}{localhost:35729}
+2016-01-07 17:08:51,770 [LiveReload Server at localhost] INFO  org.eclipse.jetty.server.Server - Started @2964459ms
+2016-01-07 17:08:52,248 [LiveReload-Proxy-Server-52918:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-07 17:08:52,261 [LiveReload-Proxy-Server-52918:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@38e08207{/,null,AVAILABLE}
+2016-01-07 17:08:52,268 [LiveReload-Proxy-Server-52918:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@7ac76080{HTTP/1.1}{localhost:52918}
+2016-01-07 17:08:52,278 [LiveReload-Proxy-Server-52918:8080] INFO  org.eclipse.jetty.server.Server - Started @2964968ms
+2016-01-07 17:08:56,411 [Worker-48] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@1ddd327a{HTTP/1.1}{localhost:35729}
+2016-01-07 17:08:56,412 [Worker-48] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@414ef0c6{/,null,UNAVAILABLE}
+2016-01-07 17:08:56,419 [Worker-48] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@7ac76080{HTTP/1.1}{localhost:52918}
+2016-01-07 17:08:56,435 [Worker-48] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@38e08207{/,null,UNAVAILABLE}
+2016-01-08 10:46:14,385 [Worker-18] INFO  org.eclipse.jetty.util.log - Logging initialized @1029116ms
+2016-01-08 10:46:14,630 [LiveReload Server at localhost] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 10:46:14,857 [LiveReload Server at localhost] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@79423272{/,null,AVAILABLE}
+2016-01-08 10:46:14,950 [LiveReload Server at localhost] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@7e8032b{HTTP/1.1}{localhost:35729}
+2016-01-08 10:46:14,951 [LiveReload Server at localhost] INFO  org.eclipse.jetty.server.Server - Started @1029699ms
+2016-01-08 10:46:18,236 [Worker-23] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@7e8032b{HTTP/1.1}{localhost:35729}
+2016-01-08 10:46:18,279 [Worker-23] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@79423272{/,null,UNAVAILABLE}
+2016-01-08 10:48:40,456 [LiveReload Server at localhost] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 10:48:40,461 [LiveReload Server at localhost] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@42042a4a{/,null,AVAILABLE}
+2016-01-08 10:48:40,469 [LiveReload Server at localhost] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@56f33cf3{HTTP/1.1}{localhost:35729}
+2016-01-08 10:48:40,470 [LiveReload Server at localhost] INFO  org.eclipse.jetty.server.Server - Started @1175218ms
+2016-01-08 10:48:41,063 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 10:48:41,179 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@61f990c2{/,null,AVAILABLE}
+2016-01-08 10:48:41,185 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@67688613{HTTP/1.1}{localhost:50459}
+2016-01-08 10:48:41,186 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @1175935ms
+2016-01-08 11:07:08,266 [qtp960397040-237] WARN  o.e.jetty.servlet.ServletHandler - /favicon.ico
+java.lang.IllegalArgumentException: Path must include project and resource name: /favicon.ico
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63) ~[org.eclipse.equinox.common_3.7.0.v20150402-1709.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.newResource(Workspace.java:2075) ~[na:na]
+	at org.eclipse.core.internal.resources.Container.getFile(Container.java:192) ~[na:na]
+	at org.jboss.tools.livereload.core.internal.util.ResourceUtils.retrieveResource(ResourceUtils.java:36) ~[na:na]
+	at org.jboss.tools.livereload.core.internal.server.jetty.WorkspaceFileServlet.doGet(WorkspaceFileServlet.java:48) ~[na:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687) ~[javax.servlet_3.1.0.v201410161800.jar:3.1.0]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet_3.1.0.v201410161800.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808) ~[na:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669) ~[na:na]
+	at org.jboss.tools.livereload.core.internal.server.jetty.LiveReloadScriptInjectionFilter.doFilter(LiveReloadScriptInjectionFilter.java:87) ~[na:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652) ~[na:na]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585) [org.eclipse.jetty.servlet_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515) [org.eclipse.jetty.servlet_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.Server.handle(Server.java:499) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540) [org.eclipse.jetty.io_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635) [org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555) [org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_60]
+2016-01-08 11:09:02,670 [Worker-20] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@67688613{HTTP/1.1}{localhost:50459}
+2016-01-08 11:09:02,673 [Worker-20] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@61f990c2{/,null,UNAVAILABLE}
+2016-01-08 11:09:06,621 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 11:09:06,654 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@6e2cafdd{/,null,AVAILABLE}
+2016-01-08 11:09:06,711 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@2d0f7158{HTTP/1.1}{localhost:50459}
+2016-01-08 11:09:06,731 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @2401480ms
+2016-01-08 11:17:51,339 [Worker-45] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@2d0f7158{HTTP/1.1}{localhost:50459}
+2016-01-08 11:17:51,341 [Worker-45] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@6e2cafdd{/,null,UNAVAILABLE}
+2016-01-08 11:17:55,208 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 11:17:55,230 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@526c2eaf{/,null,AVAILABLE}
+2016-01-08 11:17:55,253 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@4b9f9b93{HTTP/1.1}{localhost:50459}
+2016-01-08 11:17:55,254 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @2930002ms
+2016-01-08 11:18:20,751 [Worker-37] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@4b9f9b93{HTTP/1.1}{localhost:50459}
+2016-01-08 11:18:20,754 [Worker-37] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@526c2eaf{/,null,UNAVAILABLE}
+2016-01-08 11:18:24,714 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 11:18:24,731 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@36e7ed4c{/,null,AVAILABLE}
+2016-01-08 11:18:24,749 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@31073d40{HTTP/1.1}{localhost:50459}
+2016-01-08 11:18:24,756 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @2959505ms
+2016-01-08 11:19:12,116 [Worker-45] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@31073d40{HTTP/1.1}{localhost:50459}
+2016-01-08 11:19:12,118 [Worker-45] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@36e7ed4c{/,null,UNAVAILABLE}
+2016-01-08 11:19:16,198 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 11:19:16,275 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@654854c{/,null,AVAILABLE}
+2016-01-08 11:19:16,307 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@cda7a3c{HTTP/1.1}{localhost:50459}
+2016-01-08 11:19:16,307 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @3011056ms
+2016-01-08 11:21:50,560 [Worker-45] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@cda7a3c{HTTP/1.1}{localhost:50459}
+2016-01-08 11:21:50,562 [Worker-45] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@654854c{/,null,UNAVAILABLE}
+2016-01-08 11:21:54,540 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 11:21:54,565 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@a4f401f{/,null,AVAILABLE}
+2016-01-08 11:21:54,612 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@16b7f691{HTTP/1.1}{localhost:50459}
+2016-01-08 11:21:54,653 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @3169402ms
+2016-01-08 11:49:14,160 [Worker-57] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@16b7f691{HTTP/1.1}{localhost:50459}
+2016-01-08 11:49:14,163 [Worker-57] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@a4f401f{/,null,UNAVAILABLE}
+2016-01-08 11:49:18,130 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 11:49:18,161 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@60e1791f{/,null,AVAILABLE}
+2016-01-08 11:49:18,179 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@3545b512{HTTP/1.1}{localhost:50459}
+2016-01-08 11:49:18,179 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @4812928ms
+2016-01-08 11:51:23,925 [qtp960397040-237] WARN  o.e.jetty.servlet.ServletHandler - /favicon.ico
+java.lang.IllegalArgumentException: Path must include project and resource name: /favicon.ico
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63) ~[org.eclipse.equinox.common_3.7.0.v20150402-1709.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.newResource(Workspace.java:2075) ~[na:na]
+	at org.eclipse.core.internal.resources.Container.getFile(Container.java:192) ~[na:na]
+	at org.jboss.tools.livereload.core.internal.util.ResourceUtils.retrieveResource(ResourceUtils.java:36) ~[na:na]
+	at org.jboss.tools.livereload.core.internal.server.jetty.WorkspaceFileServlet.doGet(WorkspaceFileServlet.java:48) ~[na:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687) ~[javax.servlet_3.1.0.v201410161800.jar:3.1.0]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet_3.1.0.v201410161800.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808) ~[na:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669) ~[na:na]
+	at org.jboss.tools.livereload.core.internal.server.jetty.LiveReloadScriptInjectionFilter.doFilter(LiveReloadScriptInjectionFilter.java:87) ~[na:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652) ~[na:na]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585) [org.eclipse.jetty.servlet_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515) [org.eclipse.jetty.servlet_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.Server.handle(Server.java:499) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540) [org.eclipse.jetty.io_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635) [org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555) [org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_60]
+2016-01-08 12:14:00,233 [Worker-65] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@3545b512{HTTP/1.1}{localhost:50459}
+2016-01-08 12:14:00,235 [Worker-65] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@60e1791f{/,null,UNAVAILABLE}
+2016-01-08 12:14:04,392 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 12:14:04,431 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@53f642ba{/,null,AVAILABLE}
+2016-01-08 12:14:04,460 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@369f2cfa{HTTP/1.1}{localhost:50459}
+2016-01-08 12:14:04,476 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @6299225ms
+2016-01-08 12:15:19,017 [Worker-52] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@369f2cfa{HTTP/1.1}{localhost:50459}
+2016-01-08 12:15:19,020 [Worker-52] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@53f642ba{/,null,UNAVAILABLE}
+2016-01-08 12:15:22,876 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 12:15:22,898 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7e1cd3de{/,null,AVAILABLE}
+2016-01-08 12:15:22,914 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@2f7e5a32{HTTP/1.1}{localhost:50459}
+2016-01-08 12:15:22,922 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @6377671ms
+2016-01-08 12:17:21,292 [Worker-64] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@2f7e5a32{HTTP/1.1}{localhost:50459}
+2016-01-08 12:17:21,294 [Worker-64] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7e1cd3de{/,null,UNAVAILABLE}
+2016-01-08 12:17:25,158 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 12:17:25,175 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@54f00b19{/,null,AVAILABLE}
+2016-01-08 12:17:25,201 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@1ec4bbb1{HTTP/1.1}{localhost:50459}
+2016-01-08 12:17:25,217 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @6499965ms
+2016-01-08 12:18:02,603 [Worker-31] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@1ec4bbb1{HTTP/1.1}{localhost:50459}
+2016-01-08 12:18:02,611 [Worker-31] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@54f00b19{/,null,UNAVAILABLE}
+2016-01-08 12:18:06,484 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 12:18:06,514 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@6ea95adb{/,null,AVAILABLE}
+2016-01-08 12:18:06,536 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@67bea087{HTTP/1.1}{localhost:50459}
+2016-01-08 12:18:06,551 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @6541300ms
+2016-01-08 12:18:37,614 [Worker-62] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@67bea087{HTTP/1.1}{localhost:50459}
+2016-01-08 12:18:37,619 [Worker-62] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@6ea95adb{/,null,UNAVAILABLE}
+2016-01-08 12:18:41,597 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 12:18:41,675 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1ecd9547{/,null,AVAILABLE}
+2016-01-08 12:18:41,705 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@5fda9474{HTTP/1.1}{localhost:50459}
+2016-01-08 12:18:41,718 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @6576467ms
+2016-01-08 12:19:23,537 [Worker-63] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@5fda9474{HTTP/1.1}{localhost:50459}
+2016-01-08 12:19:23,545 [Worker-63] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1ecd9547{/,null,UNAVAILABLE}
+2016-01-08 12:19:27,895 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 12:19:27,915 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@47919d0d{/,null,AVAILABLE}
+2016-01-08 12:19:27,979 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@5b1be39e{HTTP/1.1}{localhost:50459}
+2016-01-08 12:19:27,995 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @6622745ms
+2016-01-08 12:20:10,744 [Worker-72] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@5b1be39e{HTTP/1.1}{localhost:50459}
+2016-01-08 12:20:10,747 [Worker-72] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@47919d0d{/,null,UNAVAILABLE}
+2016-01-08 12:20:14,602 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 12:20:14,620 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@73a1e310{/,null,AVAILABLE}
+2016-01-08 12:20:14,629 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@2b9c8123{HTTP/1.1}{localhost:50459}
+2016-01-08 12:20:14,663 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @6669412ms
+2016-01-08 12:20:44,634 [Worker-67] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@2b9c8123{HTTP/1.1}{localhost:50459}
+2016-01-08 12:20:44,642 [Worker-67] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@73a1e310{/,null,UNAVAILABLE}
+2016-01-08 12:20:48,606 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 12:20:48,653 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@54ac91e5{/,null,AVAILABLE}
+2016-01-08 12:20:48,713 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@78d1389d{HTTP/1.1}{localhost:50459}
+2016-01-08 12:20:48,730 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @6703478ms
+2016-01-08 12:22:11,411 [Worker-67] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@78d1389d{HTTP/1.1}{localhost:50459}
+2016-01-08 12:22:11,414 [Worker-67] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@54ac91e5{/,null,UNAVAILABLE}
+2016-01-08 12:22:15,376 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 12:22:15,417 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5ab31855{/,null,AVAILABLE}
+2016-01-08 12:22:15,444 [LiveReload-Proxy-Server-50459:8080] WARN  o.e.j.u.component.AbstractLifeCycle - FAILED org.eclipse.jetty.io.SelectorManager$ManagedSelector@74e6bdad keys=-1 selected=-1: java.io.IOException: Unable to establish loopback connection
+java.io.IOException: Unable to establish loopback connection
+	at sun.nio.ch.PipeImpl$Initializer.run(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.PipeImpl$Initializer.run(Unknown Source) ~[na:1.8.0_60]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_60]
+	at sun.nio.ch.PipeImpl.<init>(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.SelectorProviderImpl.openPipe(Unknown Source) ~[na:1.8.0_60]
+	at java.nio.channels.Pipe.open(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.WindowsSelectorImpl.<init>(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.WindowsSelectorProvider.openSelector(Unknown Source) ~[na:1.8.0_60]
+	at java.nio.channels.Selector.open(Unknown Source) ~[na:1.8.0_60]
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.doStart(SelectorManager.java:424) ~[org.eclipse.jetty.io_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.io.SelectorManager.doStart(SelectorManager.java:257) [org.eclipse.jetty.io_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132) [org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:106) [org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:256) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:81) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.jboss.tools.livereload.core.internal.server.jetty.JettyServerRunner.run(JettyServerRunner.java:127) [org.jboss.tools.livereload.core_1.3.0.Final-v20150924-2332-B40.jar:na]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_60]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_60]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(Unknown Source) ~[na:1.8.0_60]
+	... 23 common frames omitted
+2016-01-08 12:22:15,571 [LiveReload-Proxy-Server-50459:8080] WARN  o.e.j.u.component.AbstractLifeCycle - FAILED org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@47ab9db3: java.io.IOException: Unable to establish loopback connection
+java.io.IOException: Unable to establish loopback connection
+	at sun.nio.ch.PipeImpl$Initializer.run(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.PipeImpl$Initializer.run(Unknown Source) ~[na:1.8.0_60]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_60]
+	at sun.nio.ch.PipeImpl.<init>(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.SelectorProviderImpl.openPipe(Unknown Source) ~[na:1.8.0_60]
+	at java.nio.channels.Pipe.open(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.WindowsSelectorImpl.<init>(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.WindowsSelectorProvider.openSelector(Unknown Source) ~[na:1.8.0_60]
+	at java.nio.channels.Selector.open(Unknown Source) ~[na:1.8.0_60]
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.doStart(SelectorManager.java:424) ~[na:na]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.io.SelectorManager.doStart(SelectorManager.java:257) ~[na:na]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132) [org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:106) [org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:256) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:81) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.jboss.tools.livereload.core.internal.server.jetty.JettyServerRunner.run(JettyServerRunner.java:127) [org.jboss.tools.livereload.core_1.3.0.Final-v20150924-2332-B40.jar:na]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_60]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_60]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(Unknown Source) ~[na:1.8.0_60]
+	... 23 common frames omitted
+2016-01-08 12:22:15,579 [LiveReload-Proxy-Server-50459:8080] WARN  o.e.j.u.component.AbstractLifeCycle - FAILED ServerConnector@2ea84824{HTTP/1.1}{localhost:50459}: java.io.IOException: Unable to establish loopback connection
+java.io.IOException: Unable to establish loopback connection
+	at sun.nio.ch.PipeImpl$Initializer.run(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.PipeImpl$Initializer.run(Unknown Source) ~[na:1.8.0_60]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_60]
+	at sun.nio.ch.PipeImpl.<init>(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.SelectorProviderImpl.openPipe(Unknown Source) ~[na:1.8.0_60]
+	at java.nio.channels.Pipe.open(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.WindowsSelectorImpl.<init>(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.WindowsSelectorProvider.openSelector(Unknown Source) ~[na:1.8.0_60]
+	at java.nio.channels.Selector.open(Unknown Source) ~[na:1.8.0_60]
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.doStart(SelectorManager.java:424) ~[org.eclipse.jetty.io_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.io.SelectorManager.doStart(SelectorManager.java:257) ~[org.eclipse.jetty.io_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132) ~[org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:106) ~[org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:256) ~[org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:81) ~[org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366) [org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.jboss.tools.livereload.core.internal.server.jetty.JettyServerRunner.run(JettyServerRunner.java:127) [org.jboss.tools.livereload.core_1.3.0.Final-v20150924-2332-B40.jar:na]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_60]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_60]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(Unknown Source) ~[na:1.8.0_60]
+	... 23 common frames omitted
+2016-01-08 12:22:15,599 [LiveReload-Proxy-Server-50459:8080] WARN  o.e.j.u.component.AbstractLifeCycle - FAILED Proxy Server (50459 -> 8080): java.io.IOException: Unable to establish loopback connection
+java.io.IOException: Unable to establish loopback connection
+	at sun.nio.ch.PipeImpl$Initializer.run(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.PipeImpl$Initializer.run(Unknown Source) ~[na:1.8.0_60]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_60]
+	at sun.nio.ch.PipeImpl.<init>(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.SelectorProviderImpl.openPipe(Unknown Source) ~[na:1.8.0_60]
+	at java.nio.channels.Pipe.open(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.WindowsSelectorImpl.<init>(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.WindowsSelectorProvider.openSelector(Unknown Source) ~[na:1.8.0_60]
+	at java.nio.channels.Selector.open(Unknown Source) ~[na:1.8.0_60]
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.doStart(SelectorManager.java:424) ~[org.eclipse.jetty.io_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.io.SelectorManager.doStart(SelectorManager.java:257) ~[org.eclipse.jetty.io_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132) ~[org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:106) ~[org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:256) ~[org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:81) ~[org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366) ~[org.eclipse.jetty.server_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[org.eclipse.jetty.util_9.2.13.v20150730.jar:9.2.13.v20150730]
+	at org.jboss.tools.livereload.core.internal.server.jetty.JettyServerRunner.run(JettyServerRunner.java:127) [org.jboss.tools.livereload.core_1.3.0.Final-v20150924-2332-B40.jar:na]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_60]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_60]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(Unknown Source) ~[na:1.8.0_60]
+	... 23 common frames omitted
+2016-01-08 12:22:15,624 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@2ea84824{HTTP/1.1}{localhost:50459}
+2016-01-08 12:22:15,627 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@5ab31855{/,null,UNAVAILABLE}
+2016-01-08 12:22:45,627 [LiveReload-Proxy-Server-50459:8080] WARN  o.e.j.util.thread.QueuedThreadPool - qtp1399884902{STOPPING,8<=8<=200,i=0,q=3} Couldn't stop Thread[qtp1399884902-2896-selector-ServerConnectorManager@47ab9db3/0,5,main]
+2016-01-08 12:22:45,636 [LiveReload-Proxy-Server-50459:8080] WARN  o.e.j.util.thread.QueuedThreadPool - qtp1399884902{STOPPING,8<=8<=200,i=0,q=3} Couldn't stop Thread[qtp1399884902-2897-selector-ServerConnectorManager@47ab9db3/1,5,main]
+2016-01-08 12:22:45,645 [LiveReload-Proxy-Server-50459:8080] WARN  o.e.j.util.thread.QueuedThreadPool - qtp1399884902{STOPPING,8<=8<=200,i=0,q=3} Couldn't stop Thread[qtp1399884902-2903-selector-ServerConnectorManager@47ab9db3/2,5,main]
+2016-01-08 12:23:10,027 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 12:23:10,047 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@18cc6fe7{/,null,AVAILABLE}
+2016-01-08 12:23:10,102 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@1cc861c0{HTTP/1.1}{localhost:50459}
+2016-01-08 12:23:10,111 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @6844860ms
+2016-01-08 12:24:37,384 [Worker-38] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@1cc861c0{HTTP/1.1}{localhost:50459}
+2016-01-08 12:24:37,389 [Worker-38] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@18cc6fe7{/,null,UNAVAILABLE}
+2016-01-08 12:24:43,537 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 12:24:43,690 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@84c252a{/,null,AVAILABLE}
+2016-01-08 12:24:43,818 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@cc8ec95{HTTP/1.1}{localhost:50459}
+2016-01-08 12:24:43,854 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @6938603ms
+2016-01-08 12:25:37,342 [Worker-68] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@cc8ec95{HTTP/1.1}{localhost:50459}
+2016-01-08 12:25:37,349 [Worker-68] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@84c252a{/,null,UNAVAILABLE}
+2016-01-08 12:25:48,518 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 12:25:48,646 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4e9a7459{/,null,AVAILABLE}
+2016-01-08 12:25:48,697 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@1e77c292{HTTP/1.1}{localhost:50459}
+2016-01-08 12:25:48,749 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @7003498ms
+2016-01-08 12:36:57,178 [Worker-59] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@1e77c292{HTTP/1.1}{localhost:50459}
+2016-01-08 12:36:57,183 [Worker-59] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4e9a7459{/,null,UNAVAILABLE}
+2016-01-08 12:37:07,668 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 12:37:07,705 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@486744e{/,null,AVAILABLE}
+2016-01-08 12:37:07,834 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@6b746af7{HTTP/1.1}{localhost:50459}
+2016-01-08 12:37:07,835 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @7682584ms
+2016-01-08 12:41:56,110 [Worker-60] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@6b746af7{HTTP/1.1}{localhost:50459}
+2016-01-08 12:41:56,115 [Worker-60] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@486744e{/,null,UNAVAILABLE}
+2016-01-08 12:42:06,433 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 12:42:06,484 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1949190d{/,null,AVAILABLE}
+2016-01-08 12:42:06,533 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@3bf691bc{HTTP/1.1}{localhost:50459}
+2016-01-08 12:42:06,533 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @7981282ms
+2016-01-08 12:51:09,851 [Worker-56] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@3bf691bc{HTTP/1.1}{localhost:50459}
+2016-01-08 12:51:09,857 [Worker-56] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1949190d{/,null,UNAVAILABLE}
+2016-01-08 12:51:19,454 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 12:51:19,497 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@65fd3e80{/,null,AVAILABLE}
+2016-01-08 12:51:19,527 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@5524159c{HTTP/1.1}{localhost:50459}
+2016-01-08 12:51:19,528 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @8534276ms
+2016-01-08 12:52:23,919 [Worker-52] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@5524159c{HTTP/1.1}{localhost:50459}
+2016-01-08 12:52:23,925 [Worker-52] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@65fd3e80{/,null,UNAVAILABLE}
+2016-01-08 12:52:34,980 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 12:52:35,028 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@240c71ba{/,null,AVAILABLE}
+2016-01-08 12:52:35,125 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@7a21721b{HTTP/1.1}{localhost:50459}
+2016-01-08 12:52:35,153 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @8609902ms
+2016-01-08 12:54:02,579 [Worker-71] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@7a21721b{HTTP/1.1}{localhost:50459}
+2016-01-08 12:54:02,586 [Worker-71] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@240c71ba{/,null,UNAVAILABLE}
+2016-01-08 12:54:11,934 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 12:54:11,994 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@e05ca4d{/,null,AVAILABLE}
+2016-01-08 12:54:12,177 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@6701dd95{HTTP/1.1}{localhost:50459}
+2016-01-08 12:54:12,178 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @8706926ms
+2016-01-08 12:55:10,838 [Worker-59] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@6701dd95{HTTP/1.1}{localhost:50459}
+2016-01-08 12:55:10,844 [Worker-59] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@e05ca4d{/,null,UNAVAILABLE}
+2016-01-08 12:55:20,213 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 12:55:20,335 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@66149394{/,null,AVAILABLE}
+2016-01-08 12:55:20,404 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@12b8d633{HTTP/1.1}{localhost:50459}
+2016-01-08 12:55:20,480 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @8775229ms
+2016-01-08 12:57:11,916 [Worker-78] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@12b8d633{HTTP/1.1}{localhost:50459}
+2016-01-08 12:57:11,920 [Worker-78] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@66149394{/,null,UNAVAILABLE}
+2016-01-08 12:57:22,345 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 12:57:22,480 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1abbdaf8{/,null,AVAILABLE}
+2016-01-08 12:57:22,532 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@3275d005{HTTP/1.1}{localhost:50459}
+2016-01-08 12:57:22,552 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @8897300ms
+2016-01-08 12:58:22,306 [Worker-83] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@3275d005{HTTP/1.1}{localhost:50459}
+2016-01-08 12:58:22,311 [Worker-83] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1abbdaf8{/,null,UNAVAILABLE}
+2016-01-08 12:58:31,956 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 12:58:32,089 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@64a664f7{/,null,AVAILABLE}
+2016-01-08 12:58:32,208 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@181c175f{HTTP/1.1}{localhost:50459}
+2016-01-08 12:58:32,275 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @8967023ms
+2016-01-08 12:59:55,217 [Worker-77] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@181c175f{HTTP/1.1}{localhost:50459}
+2016-01-08 12:59:55,223 [Worker-77] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@64a664f7{/,null,UNAVAILABLE}
+2016-01-08 13:00:07,815 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 13:00:07,873 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@198f2320{/,null,AVAILABLE}
+2016-01-08 13:00:07,930 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@ca50d92{HTTP/1.1}{localhost:50459}
+2016-01-08 13:00:07,931 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @9062679ms
+2016-01-08 13:04:32,426 [Worker-86] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@ca50d92{HTTP/1.1}{localhost:50459}
+2016-01-08 13:04:32,431 [Worker-86] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@198f2320{/,null,UNAVAILABLE}
+2016-01-08 13:04:43,445 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 13:04:43,513 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7b9d9805{/,null,AVAILABLE}
+2016-01-08 13:04:43,698 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@98d220e{HTTP/1.1}{localhost:50459}
+2016-01-08 13:04:43,761 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @9338510ms
+2016-01-08 13:07:17,074 [Worker-71] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@98d220e{HTTP/1.1}{localhost:50459}
+2016-01-08 13:07:17,079 [Worker-71] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7b9d9805{/,null,UNAVAILABLE}
+2016-01-08 13:07:27,046 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 13:07:27,099 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@791a4e80{/,null,AVAILABLE}
+2016-01-08 13:07:27,143 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@23aba413{HTTP/1.1}{localhost:50459}
+2016-01-08 13:07:27,143 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @9501892ms
+2016-01-08 13:08:48,285 [Worker-77] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@23aba413{HTTP/1.1}{localhost:50459}
+2016-01-08 13:08:48,292 [Worker-77] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@791a4e80{/,null,UNAVAILABLE}
+2016-01-08 13:08:58,237 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 13:08:58,298 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@63a7374b{/,null,AVAILABLE}
+2016-01-08 13:08:58,365 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@1daa794f{HTTP/1.1}{localhost:50459}
+2016-01-08 13:08:58,438 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @9593187ms
+2016-01-08 13:10:21,339 [Worker-67] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@1daa794f{HTTP/1.1}{localhost:50459}
+2016-01-08 13:10:21,345 [Worker-67] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@63a7374b{/,null,UNAVAILABLE}
+2016-01-08 13:10:30,674 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 13:10:30,825 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@23c4aa59{/,null,AVAILABLE}
+2016-01-08 13:10:30,912 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@203977c{HTTP/1.1}{localhost:50459}
+2016-01-08 13:10:31,049 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @9685798ms
+2016-01-08 13:11:38,641 [Worker-82] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@203977c{HTTP/1.1}{localhost:50459}
+2016-01-08 13:11:38,646 [Worker-82] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@23c4aa59{/,null,UNAVAILABLE}
+2016-01-08 13:11:51,473 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 13:11:51,555 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7cbe3e8{/,null,AVAILABLE}
+2016-01-08 13:11:51,669 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@580b01b3{HTTP/1.1}{localhost:50459}
+2016-01-08 13:11:51,670 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @9766419ms
+2016-01-08 13:17:48,792 [Worker-62] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@580b01b3{HTTP/1.1}{localhost:50459}
+2016-01-08 13:17:48,796 [Worker-62] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7cbe3e8{/,null,UNAVAILABLE}
+2016-01-08 13:17:58,805 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 13:17:58,843 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7dbc5cfe{/,null,AVAILABLE}
+2016-01-08 13:17:58,871 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@369de3c1{HTTP/1.1}{localhost:50459}
+2016-01-08 13:17:58,871 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @10133620ms
+2016-01-08 13:20:01,713 [Worker-52] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@369de3c1{HTTP/1.1}{localhost:50459}
+2016-01-08 13:20:01,718 [Worker-52] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7dbc5cfe{/,null,UNAVAILABLE}
+2016-01-08 13:20:10,864 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 13:20:10,925 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5d5e03{/,null,AVAILABLE}
+2016-01-08 13:20:11,087 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@211a9555{HTTP/1.1}{localhost:50459}
+2016-01-08 13:20:11,224 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @10265973ms
+2016-01-08 14:07:37,620 [Worker-94] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@211a9555{HTTP/1.1}{localhost:50459}
+2016-01-08 14:07:37,625 [Worker-94] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@2e5d5e03{/,null,UNAVAILABLE}
+2016-01-08 14:07:50,499 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 14:07:50,545 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@6528afa3{/,null,AVAILABLE}
+2016-01-08 14:07:50,610 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@551fb2f6{HTTP/1.1}{localhost:50459}
+2016-01-08 14:07:50,661 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @13125410ms
+2016-01-08 15:02:43,069 [Worker-103] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@551fb2f6{HTTP/1.1}{localhost:50459}
+2016-01-08 15:02:43,074 [Worker-103] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@6528afa3{/,null,UNAVAILABLE}
+2016-01-08 15:02:52,777 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-01-08 15:02:52,802 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@43f8c0fa{/,null,AVAILABLE}
+2016-01-08 15:02:53,019 [LiveReload-Proxy-Server-50459:8080] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@60f48a44{HTTP/1.1}{localhost:50459}
+2016-01-08 15:02:53,038 [LiveReload-Proxy-Server-50459:8080] INFO  org.eclipse.jetty.server.Server - Started @16427787ms

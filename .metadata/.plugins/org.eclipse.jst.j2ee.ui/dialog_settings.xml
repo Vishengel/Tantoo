@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="true" key="J2EE_EXPORT_OVERWRITE"/>
+	<item value="true" key="J2EE_EXPORT_SOURCE"/>
 	<item value="Test2EAR" key="LASTEARNAME_"/>
+	<list key="J2EE_IMPORT_null">
+		<item value="C:\Users\Jelle\Downloads\current_tantoo.war"/>
+		<item value="C:\Users\Jelle\Desktop\tantoo.war"/>
+	</list>
 	<list key="MRU_RUNTIME_STORE">
 		<item value="WildFly 9.x Runtime"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="C:\Users\Jelle\Desktop\tantooo.war"/>
+		<item value="C:\Users\Jelle\Desktop\tantwo.war"/>
+		<item value="C:\Users\Jelle\Desktop\tantoo.war"/>
 	</list>
 </section>

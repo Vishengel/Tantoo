@@ -1,0 +1,39 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+	<h:outputStylesheet library="css" name="styles.css"/>
+	<title>Forgot password</title>
+</h:head>
+
+
+<h:body>
+	<div class="container" id="logincontainer">
+		<div id="tantoo">Tantoo</div>
+			<h:form>				
+				<h:outputText>Enter email address</h:outputText>
+				<h:inputText value="#{loginData.email}" id="email" name="email" required="true" requiredMessage="This field is required"/>
+			
+			<div id="lower">
+				<div id="forgotbutton">			
+					<h:commandButton action="#{loginData.forgotPW()}" value="Get password"></h:commandButton>					
+				</div>
+			
+			</div> <!-- lower -->
+			</h:form>
+			
+		<h:form>
+		    <f:ajax render="text">
+		        <h:commandLink value="Click A" action="#{loginData.setShow('A')}" /><br/>
+		    </f:ajax>
+		
+		    <h:panelGroup id="text">
+		        <h:outputText value="Clicked A" rendered="#{loginData.show == 'A'}" />
+		    </h:panelGroup>
+		</h:form>	
+	</div> <!-- container -->
+	
+</h:body>
+</html>
